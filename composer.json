@@ -1,0 +1,24 @@
+{
+    "name": "victualler/form",
+    "description": "A form library for PMMP",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Victualler",
+            "email": "victuallerdev@gmail.com"
+        }
+    ],
+    "require": {
+        "pocketmine/pocketmine-mp": "^5.0.0",
+        "php": "^8.1"
+    },
+    "autoload": {
+        "classmap": ["src"]
+    },
+    "extra": {
+        "virion": {
+            "spec": "1.0.0",
+            "namespace-root": "Victualler\\Form"
+        }
+    }
+}
